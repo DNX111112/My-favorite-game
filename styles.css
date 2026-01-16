@@ -9,4 +9,32 @@ body {
 	background: whitesmoke;
 	width: 100%;
 }
+.zagolovok {
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+}
+body {
+	min-height: 100vh;
+	background:linear-gradient(rgba( 0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("zemla.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: ;
+	padding: 20px 40px;
+	flex-direction: column;
+}
+@media (max-width: 599px){
+	body {
+		background-position: 50% center;
+	}
+}
+main {
+	padding: 40px;
+}
+
 
