@@ -3,6 +3,7 @@
 	padding: 0;
 	font-family: arial,sans-serif;
 	box-sizing: border-box;
+	color: whitesmoke;
 
 }
 body {
@@ -12,7 +13,7 @@ body {
 .zagolovok {
     font-size: 50px;
     text-align: center;
-    color: blue;
+    color: green;
 }
 body {
 	min-height: 100vh;
@@ -31,10 +32,24 @@ header {
 @media (max-width: 599px){
 	body {
 		background-position: 50% center;
+
 	}
 }
 main {
 	padding: 40px;
 }
-
-
+@media (min-width: 769px) and (max-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+  .zagolovok {
+  	font-size: 90px;
+  }
+}
+footer p {
+	font-size: 10px;
+	color: dimgray;
+}
+footer {
+	text-align: center;
+}
