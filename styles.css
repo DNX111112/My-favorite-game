@@ -12,8 +12,10 @@ body {
 }
 .zagolovok {
     font-size: 50px;
-    text-align: center;
-    color: green;
+    text-align: center;   
+    color: darkgreen;
+    background: seagreen;
+    border-radius: 10px;
 }
 body {
 	min-height: 100vh;
@@ -25,7 +27,7 @@ body {
 header {
 	display: flex;
 	justify-content: space-between;
-	align-items: ;
+	align-items: center;
 	padding: 20px 40px;
 	flex-direction: column;
 }
@@ -40,6 +42,7 @@ main {
 }
 @media (min-width: 769px) and (max-width: 1200px) {
   body {
+  	
     font-size: 18px;
   }
   .zagolovok {
@@ -55,4 +58,8 @@ footer {
 }
 main p {
 	font-size: 20px;
+}
+main ul {
+	padding:60px;
+	margin: 0px;
 }
